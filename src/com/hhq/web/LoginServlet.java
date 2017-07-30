@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Enumeration;
 
 @WebServlet(name = "LoginServlet")
 public class LoginServlet extends HttpServlet {
@@ -21,6 +22,14 @@ public class LoginServlet extends HttpServlet {
 
         String loginResult = "登录成功！欢迎您 "+username+"!";
         out.println(loginResult);
+        Enumeration<String> names = request.getHeaderNames();
+
+        while (names.hasMoreElements()){
+
+            String name = names.nextElement();
+            out.println( name+":"+request.getHeader(name)+"  ");
+        }
+
         out.close();
     }
 
