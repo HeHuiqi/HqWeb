@@ -39,13 +39,21 @@
 </head>
 <body>
 
-<h2>AJAX</h2>
+<h2>登录</h2>
+<!--ajax请求方式-->
 <form >
     用户名：<input id="account" name="username" placeholder="输入用户名"/><br>
     密  码：<input name="password" placeholder="输入密码"><br>
 </form>
 <button type="button" onclick="login()">登录</button>
 <div id="myDiv"></div>
+
+<!--直接跳转-->
+<!--<form name="login" method="post"  action="/login" onsubmit="login">-->
+    <!--用户名：<input name="username" placeholder="输入用户名"/><br>-->
+    <!--密  码：<input name="password" placeholder="输入密码"><br>-->
+    <!--<input type="submit" value="登录">-->
+<!--</form>-->
 
 </body>
 </html>
