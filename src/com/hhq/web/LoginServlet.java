@@ -23,13 +23,7 @@ public class LoginServlet extends HttpServlet {
 
         String loginResult = "登录成功！欢迎您 "+username+"! -----";
         out.println(loginResult);
-        /*
-        Enumeration<String> names = request.getHeaderNames();
-        while (names.hasMoreElements()){
 
-            String name = names.nextElement();
-            out.println( name+":"+request.getHeader(name)+"  ");
-        }*/
 
         out.close();
     }
