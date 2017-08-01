@@ -5,6 +5,7 @@
 		  http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
            version="3.1">
     <welcome-file-list>
+        <welcome-file>/hqloginInfo</welcome-file>
         <welcome-file>login.html</welcome-file>
         <welcome-file>index.html</welcome-file>
         <welcome-file>index.jsp</welcome-file>
@@ -41,6 +42,12 @@
     <servlet>
         <servlet-name>HqUploadServlet</servlet-name>
         <servlet-class>com.hhq.web.HqUploadServlet</servlet-class>
+        <!--Servlet3.0通过配置multipart设置上传文件的路径-->
+        <!--
+        <multipart-config>
+            <location>/Users</location>
+        </multipart-config>
+        -->
     </servlet>
     <servlet-mapping>
         <servlet-name>HqUploadServlet</servlet-name>
