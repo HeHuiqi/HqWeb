@@ -6,15 +6,9 @@
 </head>
 <body>
 <h1>欢迎你！！！</h1>
-<script>
-    function  login() {
-
-    }
-</script>
-<form name="login" method="post"  action="/login" onsubmit="login">
-    用户名：<input name="username" placeholder="输入用户名"/><br>
-    密  码：<input name="password" placeholder="输入密码"><br>
-    <input type="submit" value="登录">
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="photo" value="" /><br>
+    <input type="submit" value="上传" name="upload">
 </form>
 </body>
 </html>

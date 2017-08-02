@@ -5,19 +5,11 @@
 		  http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
            version="3.1">
     <welcome-file-list>
+        <welcome-file>login.html</welcome-file>
         <welcome-file>index.html</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
-    
-    <servlet>
-        <servlet-name>HelloServlet</servlet-name>
-        <servlet-class>com.hhq.web.HelloServlet</servlet-class>
-        <!--设置容器启动时初始化servlet-->
-        <load-on-startup>1</load-on-startup>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>HelloServlet</servlet-name>
-        <url-pattern>/servlet/HelloServlet</url-pattern>
-    </servlet-mapping>
+
     
     <!--<servlet>-->
         <!--<servlet-name>HqServlet</servlet-name>-->
@@ -36,6 +28,23 @@
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HqHeaderServlet</servlet-name>
+        <servlet-class>com.hhq.web.HqHeaderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HqHeaderServlet</servlet-name>
+        <url-pattern>/header</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HqUploadServlet</servlet-name>
+        <servlet-class>com.hhq.web.HqUploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HqUploadServlet</servlet-name>
+        <url-pattern>/upload</url-pattern>
     </servlet-mapping>
 
 </web-app>
