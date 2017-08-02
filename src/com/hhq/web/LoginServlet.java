@@ -24,7 +24,6 @@ public class LoginServlet extends HttpServlet {
         String loginResult = "登录成功！欢迎您 "+username+"! -----";
         out.println(loginResult);
 
-
         out.close();
     }
 
@@ -34,6 +33,8 @@ public class LoginServlet extends HttpServlet {
        response.setContentType("text/html;charset=utf-8");
        PrintWriter out = response.getWriter();
        out.println("请使用post请求");
+       //请求转发会跳转到百度的页面
+//       response.sendRedirect("http://www.baidu.com");
        out.close();
 
     }

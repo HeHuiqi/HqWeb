@@ -5,7 +5,6 @@
 		  http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
            version="3.1">
     <welcome-file-list>
-        <welcome-file>login.html</welcome-file>
         <welcome-file>index.html</welcome-file>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
@@ -41,10 +40,40 @@
     <servlet>
         <servlet-name>HqUploadServlet</servlet-name>
         <servlet-class>com.hhq.web.HqUploadServlet</servlet-class>
+        <!--Servlet3.0通过配置multipart设置上传文件的路径-->
+        <!--
+        <multipart-config>
+            <location>/Users</location>
+        </multipart-config>
+        -->
     </servlet>
     <servlet-mapping>
         <servlet-name>HqUploadServlet</servlet-name>
         <url-pattern>/upload</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>HqFindNameServlet</servlet-name>
+        <servlet-class>com.hhq.web.HqServeltConfig.HqFindNameServlet</servlet-class>
+        <init-param>
+            <param-name>FIND_NAME_SUCCESS</param-name>
+            <param-value>查找成功</param-value>
+        </init-param>
+        <init-param>
+            <param-name>FIND_NAME_FAIL</param-name>
+            <param-value>查找失败</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HqFindNameServlet</servlet-name>
+        <url-pattern>/findName</url-pattern>
+    </servlet-mapping>
+
+    <!--配置ServletContext初始化参数HqServletContextListener会得到此参数值-->
+    <context-param>
+        <param-name>CONTEXT_INIT_PARAM1</param-name>
+        <param-value>context对象的第一个参数1</param-value>
+    </context-param>
 
 </web-app>
