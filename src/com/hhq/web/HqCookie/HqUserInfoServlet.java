@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "HqShowLoginInfoServlet", urlPatterns = "/hqloginInfo")
-public class HqShowLoginInfoServlet extends HttpServlet {
+@WebServlet(name = "HqUserInfoServlet", urlPatterns = "/userInfo")
+public class HqUserInfoServlet extends HttpServlet {
     protected  void  showProcessRequest(HttpServletRequest request,HttpServletResponse response) throws  ServletException,IOException{
         Cookie[] cookies = request.getCookies();
         if (cookies != null){
@@ -30,7 +30,7 @@ public class HqShowLoginInfoServlet extends HttpServlet {
             }
         }
         //如果没有cookie就重写登录
-        response.sendRedirect("/hqlogin.html");
+        response.sendRedirect("/HqCookieUI/hqlogin.html");
 
     }
     @Override

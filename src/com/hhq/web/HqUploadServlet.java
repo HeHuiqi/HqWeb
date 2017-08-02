@@ -86,8 +86,12 @@ public class HqUploadServlet extends HttpServlet {
     private  void  writeTo(String filename, Part part) throws  Exception{
 
         System.out.println("filename="+filename);
+        String usrHome = System.getProperty("user.home");
+
+        System.out.println("userHome="+usrHome);
+        String dir = usrHome+"/Desktop/"+filename;
         InputStream inputStream = part.getInputStream();
-        FileOutputStream outputStream = new FileOutputStream("/Users/macpro/Desktop/"+filename);
+        FileOutputStream outputStream = new FileOutputStream(dir);
         byte[] buffer = new byte[1024];
         int read = 0;
         while ((read = inputStream.read(buffer))>0){

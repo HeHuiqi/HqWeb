@@ -26,7 +26,6 @@ public class HqloginServlet extends HttpServlet {
 
             String auto = request.getParameter("autologin");
 
-
             if ("auto".equals(auto)){
 
                 Cookie cookie = new Cookie("username","hhq");
@@ -42,7 +41,7 @@ public class HqloginServlet extends HttpServlet {
         }
 
         //否则重新登录
-        response.sendRedirect("/hqlogin.html");
+        response.sendRedirect("/HqCookieUI/hqlogin.html");
 
     }
 
