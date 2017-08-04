@@ -27,6 +27,7 @@ public class HqUploadServlet extends HttpServlet {
 
         try {
             request.setCharacterEncoding("utf-8");
+            response.setContentType("text/html;charset=utf-8");
             //取得文件名子 Part 3.0才有
             Part part = request.getPart("photo");
             String filename = getFilename(part);
@@ -84,6 +85,7 @@ public class HqUploadServlet extends HttpServlet {
     }
 
     private  void  writeTo(String filename, Part part) throws  Exception{
+
 
         System.out.println("filename="+filename);
         String usrHome = System.getProperty("user.home");
