@@ -21,7 +21,7 @@ public class LoginServlet extends HttpServlet {
 
         PrintWriter out = response.getWriter();
 
-        String loginResult = "登录成功！欢迎您 "+username+"! -----";
+        String loginResult = "<h1>登录成功！欢迎您 "+username+"!</h1>";
         out.println(loginResult);
 
         out.close();

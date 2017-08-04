@@ -76,4 +76,14 @@
         <param-value>context对象的第一个参数1</param-value>
     </context-param>
 
+
+    <filter>
+        <filter-name>HqEscapeFilter</filter-name>
+        <filter-class>com.hhq.web.HqFilter.HqEscapeFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>HqEscapeFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
 </web-app>
