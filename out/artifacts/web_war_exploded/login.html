@@ -41,20 +41,22 @@
 <body>
 
 <h2>登录</h2>
-<!--ajax请求方式-->
-<form >
+ajax请求方式
+<form id="servletLogin">
     用户名：<input id="account" name="username" placeholder="输入用户名"/><br>
     密  码：<input name="password" placeholder="输入密码"><br>
+    <button type="button" onclick="login()">登录</button>
 </form>
-<button type="button" onclick="login()">登录</button>
 <div id="myDiv"></div>
 
-<!--直接跳转-->
-<!--<form name="login" method="post"  action="/login" onsubmit="login">-->
-    <!--用户名：<input name="username" placeholder="输入用户名"/><br>-->
-    <!--密  码：<input name="password" placeholder="输入密码"><br>-->
-    <!--<input type="submit" value="登录">-->
-<!--</form>-->
+<br>
+<br>
+jsp直接跳转
+<form id="jspLogin" method="post"  action="/HqJsp/HqLoginJsp.jsp" >
+    用户名：<input name="user" placeholder="输入用户名"/><br>
+    密  码：<input name="password" placeholder="输入密码"><br>
+    <button type="submit" >登录</button>
+</form>
 
 </body>
 </html>
