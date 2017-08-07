@@ -7,57 +7,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ce7b807-149b-46b5-b813-4f47af442df5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/file.template.settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hhq/web/HqFilter/HqLeaveWordServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hhq/web/HqServerPush/HqPushListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hhq/web/HqServerPush/HqPushServerServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/HqJS/hq_http_client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/filter_html_character.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/hq_push.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/fileTemplates/Servlet.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqAsynContext/HqAsyRequest.class" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqAsynContext/HqAsyRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqAsynContext/HqAsynServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqAsynContext/HqAsynServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqFilter/HqEncodingFilter.class" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqFilter/HqEncodingFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqFilter/HqEncodingServletWrapper.class" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqFilter/HqEncodingServletWrapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqFilter/HqEscapeFilter.class" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqFilter/HqEscapeFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqFilter/HqEscapeServletWrapper.class" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqFilter/HqEscapeServletWrapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqHttpSession/HqFindBookServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqHttpSession/HqFindBookServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqListener/HqServletContextListener.class" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqListener/HqServletContextListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/LoginServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/LoginServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqAsynContext/HqAsyRequest.class" afterPath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqAsynContext/HqAsyRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqAsynContext/HqAsynServlet.class" afterPath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqAsynContext/HqAsynServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqFilter/HqEncodingFilter.class" afterPath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqFilter/HqEncodingFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqFilter/HqEncodingServletWrapper.class" afterPath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqFilter/HqEncodingServletWrapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqFilter/HqEscapeFilter.class" afterPath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqFilter/HqEscapeFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqFilter/HqEscapeServletWrapper.class" afterPath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqFilter/HqEscapeServletWrapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqHttpSession/HqFindBookServlet.class" afterPath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqHttpSession/HqFindBookServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqListener/HqServletContextListener.class" afterPath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqListener/HqServletContextListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/LoginServlet.class" afterPath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/LoginServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/HqLeaveWordServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/HqPushServerServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HqWeb/HqLeaveWordServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HqWeb/HqPushServerServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/HqJsp/HqLoginJsp.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/artifacts/web_war_exploded/HqJsp/HqLoginJsp.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/artifacts/web_war_exploded/WEB-INF/classes/web/HqJsp/HqLoginJsp.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/artifacts/web_war_exploded/WEB-INF/classes/web/hq_push.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/artifacts/web_war_exploded/hq_push.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/production/HqWeb/web/HqJsp/HqLoginJsp.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/web/HqJsp/HqLoginJsp.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HqWeb/web/HqJsp/HqLoginJsp.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/HqJsp/HqLoginJsp.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqServerPush/HqPushListener.class" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/hhq/web/HqServerPush/HqPushListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqServerPush/HqPushListener.class" afterPath="$PROJECT_DIR$/out/production/HqWeb/com/hhq/web/HqServerPush/HqPushListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/artifacts/web_war_exploded/WEB-INF/classes/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/artifacts/web_war_exploded/WEB-INF/classes/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/production/HqWeb/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/production/HqWeb/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/web/index.html" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/artifacts/web_war_exploded/WEB-INF/classes/web/filter_html_character.html" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/artifacts/web_war_exploded/WEB-INF/classes/web/filter_html_character.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/artifacts/web_war_exploded/WEB-INF/classes/web/login.html" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/artifacts/web_war_exploded/WEB-INF/classes/web/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/artifacts/web_war_exploded/filter_html_character.html" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/artifacts/web_war_exploded/filter_html_character.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/artifacts/web_war_exploded/login.html" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/artifacts/web_war_exploded/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/production/HqWeb/web/login.html" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/out/production/HqWeb/web/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/web/filter_html_character.html" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/web/filter_html_character.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/web/hq_push.html" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/web/hq_push.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/web/login.html" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/web/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/index.html" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/filter_html_character.html" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/filter_html_character.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/hq_push.html" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/hq_push.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/login.html" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/HqWeb/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/production/HqWeb/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/web/index.html" afterPath="$PROJECT_DIR$/out/production/HqWeb/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/web/filter_html_character.html" afterPath="$PROJECT_DIR$/out/production/HqWeb/web/filter_html_character.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/web/hq_push.html" afterPath="$PROJECT_DIR$/out/production/HqWeb/web/hq_push.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqWeb/web/login.html" afterPath="$PROJECT_DIR$/out/production/HqWeb/web/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/web/HqAsynContext/HqAsyRequest.java" afterPath="$PROJECT_DIR$/src/com/hhq/web/HqAsynContext/HqAsyRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/web/HqAsynContext/HqAsynServlet.java" afterPath="$PROJECT_DIR$/src/com/hhq/web/HqAsynContext/HqAsynServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/web/HqFilter/HqEncodingFilter.java" afterPath="$PROJECT_DIR$/src/com/hhq/web/HqFilter/HqEncodingFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/web/HqFilter/HqEncodingServletWrapper.java" afterPath="$PROJECT_DIR$/src/com/hhq/web/HqFilter/HqEncodingServletWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/web/HqFilter/HqEscapeFilter.java" afterPath="$PROJECT_DIR$/src/com/hhq/web/HqFilter/HqEscapeFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/web/HqFilter/HqEscapeServletWrapper.java" afterPath="$PROJECT_DIR$/src/com/hhq/web/HqFilter/HqEscapeServletWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/web/HqHttpSession/HqFindBookServlet.java" afterPath="$PROJECT_DIR$/src/com/hhq/web/HqHttpSession/HqFindBookServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/web/HqListener/HqServletContextListener.java" afterPath="$PROJECT_DIR$/src/com/hhq/web/HqListener/HqServletContextListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/web/LoginServlet.java" afterPath="$PROJECT_DIR$/src/com/hhq/web/LoginServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/web/HqServerPush/HqPushServerServlet.java" afterPath="$PROJECT_DIR$/src/com/hhq/web/HqServerPush/HqPushServerServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/hq_push.html" afterPath="$PROJECT_DIR$/web/hq_push.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.html" afterPath="$PROJECT_DIR$/web/login.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -73,20 +56,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="161">
+              <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HqloginServlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqCookie/HqloginServlet.java">
+      <file leaf-file-name="HqAsynServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqAsynContext/HqAsynServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="221">
+              <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HqPushServerServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqServerPush/HqPushServerServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hq_push.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/hq_push.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HqPushListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqServerPush/HqPushListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HqAsyRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqAsynContext/HqAsyRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,11 +132,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hq_home.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/production/HqWeb/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/production/HqWeb/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/WEB-INF/classes/artifacts/web_war_exploded/HqJsp/hq_home.jsp">
+      <file leaf-file-name="HqLoginJsp.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/HqJsp/HqLoginJsp.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+            <state relative-caret-position="153">
+              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -188,23 +225,10 @@
         <option value="$PROJECT_DIR$/web/filter_html_character.html" />
         <option value="$PROJECT_DIR$/src/com/hhq/web/HqFilter/HqEscapeFilter.java" />
         <option value="$PROJECT_DIR$/src/com/hhq/web/HqAsynContext/HqAsyRequest.java" />
-        <option value="$PROJECT_DIR$/src/com/hhq/web/HqAsynContext/HqAsynServlet.java" />
-        <option value="$PROJECT_DIR$/web/HqJS/hq_http_client.css" />
-        <option value="$PROJECT_DIR$/web/HqJS/hq_web.js" />
-        <option value="$PROJECT_DIR$/web/hq_push.html" />
-        <option value="$PROJECT_DIR$/src/com/hhq/web/HqListener/HqServletContextListener.java" />
-        <option value="$PROJECT_DIR$/web/HqJS/hq_http_client.js" />
-        <option value="$PROJECT_DIR$/src/com/hhq/web/HqServerPush/HqPushListener.java" />
-        <option value="$PROJECT_DIR$/web/HqJS/temp.js" />
-        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/web/HqJsp/HqLoginJsp.jsp" />
         <option value="$PROJECT_DIR$/src/com/hhq/web/HqServerPush/HqPushServerServlet.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/HqJsp/hq_home.jsp" />
-        <option value="$PROJECT_DIR$/web/HqJsp/hq_header.jsp" />
-        <option value="$PROJECT_DIR$/web/HqJsp/hq_footer.jsp" />
-        <option value="$PROJECT_DIR$/web/HqJsp/hq_body.jsp" />
-        <option value="$PROJECT_DIR$/web/HqJsp/hq_login.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/hq_push.html" />
         <option value="$PROJECT_DIR$/web/login.html" />
       </list>
     </option>
@@ -261,6 +285,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,7 +298,13 @@
             <path>
               <item name="HqWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="HqWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HqWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqWeb" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="fileTemplates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HqWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -284,14 +317,29 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HqWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="HqServerPush" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HqWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HqWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="HqJsp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -517,11 +565,15 @@
       <workItem from="1502007719357" duration="7976000" />
       <workItem from="1502023788143" duration="1420000" />
       <workItem from="1502065210549" duration="40000" />
+      <workItem from="1501847110344" duration="15000" />
+      <workItem from="1502067313712" duration="1660000" />
+      <workItem from="1502150089057" duration="39000" />
+      <workItem from="1502150131784" duration="141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130772000" />
+    <option name="totallyTimeSpent" value="95513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -534,6 +586,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="23" width="1217" height="729" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -544,13 +597,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33753943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3643533" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57570976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24447949" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24447949" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50297874" sideWeight="0.22818792" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27574468" sideWeight="0.7710438" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35404256" sideWeight="0.7983871" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.326212" sideWeight="0.2016129" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39148936" sideWeight="0.86290324" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -562,7 +615,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62460566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15615141" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -614,37 +667,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/fileTemplates/j2ee/Servlet Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqHttpSession/HqClearSessionServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="72" lean-forward="false" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqAsynContext/HqTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqUploadServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/local/apache-tomcat-8.5.16/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-716">
@@ -729,21 +751,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/local/apache-tomcat-8.5.16/lib/servlet-api.jar!/javax/servlet/annotation/WebFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqFilter/HqEscapeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/filter_html_character.html">
+    <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqCookie/HqloginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
@@ -781,7 +789,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqListener/HqHttpSessionListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="900" column="0" lean-forward="false" selection-start-line="900" selection-start-column="0" selection-end-line="900" selection-end-column="0" />
@@ -847,8 +855,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/HqWeb/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="249">
+          <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -889,22 +897,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/web_war_exploded/HqJsp/login.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/login.html">
+    <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqAsynContext/HqAsyRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqCookie/HqloginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="136">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqAsynContext/HqAsynServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/fileTemplates/Servlet.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1019">
+          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/HqJsp/HqLoginJsp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqServerPush/HqPushListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hhq/web/HqServerPush/HqPushServerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hq_push.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

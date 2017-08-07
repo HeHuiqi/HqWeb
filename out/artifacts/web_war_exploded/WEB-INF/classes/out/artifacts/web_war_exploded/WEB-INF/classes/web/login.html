@@ -2,6 +2,7 @@
 <head>
     <meta charset="utf-8">
     <title>登录</title>
+<<<<<<< HEAD
     <script src="/HqJS/hq_http_client.js"></script>
     <script type="text/javascript">
 
@@ -24,15 +25,70 @@
     密  码：<input name="password" placeholder="输入密码"><br>
 </form>
 <button type="button" onclick="login()">登录</button>
+=======
+    <script type="text/javascript">
+        function login()
+        {
+            var xmlhttp;
+            if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp=new XMLHttpRequest();
+            }
+            else
+            {// code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange=function()
+            {
+                console.log('xmlhttp.status == ',xmlhttp.status);
+                console.log('xmlhttp.readyState == ',xmlhttp.readyState);
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    var element = "请求成功";
+
+                    document.getElementById("myDiv").innerHTML=element;
+                    document.getElementById("myDiv").innerHTML=xmlhttp.responseText+element;
+                }
+            }
+            xmlhttp.open("post","http://127.0.0.1:8080/login",true);
+            xmlhttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded;");
+            var username = document.getElementById("account").value;
+            var arg = "username="+username;
+            xmlhttp.onerror = function() {
+                alert('Woops, there was an error making the request.');
+            };
+            xmlhttp.send(arg);
+
+        }
+    </script>
+</head>
+<body>
+
+<h2>登录</h2>
+ajax请求方式
+<form id="servletLogin">
+    用户名：<input id="account" name="username" placeholder="输入用户名"/><br>
+    密  码：<input name="password" placeholder="输入密码"><br>
+    <button type="button" onclick="login()">登录</button>
+</form>
+>>>>>>> cb58c84831943935b41ebef5e0240cd1c4cc5a4b
 <div id="myDiv"></div>
 
 <br>
 <br>
+<<<<<<< HEAD
 jsp登录直接跳转
 <form name="login" method="post" action="/HqJsp/login.jsp">
     用户名：<input name="user" placeholder="输入用户名"/><br>
     密  码：<input name="password" placeholder="输入密码"><br>
     <input type="submit" value="登录">
+=======
+jsp直接跳转
+<form id="jspLogin" method="post"  action="/HqJsp/HqLoginJsp.jsp" >
+    用户名：<input name="user" placeholder="输入用户名"/><br>
+    密  码：<input name="password" placeholder="输入密码"><br>
+    <button type="submit" >登录</button>
+>>>>>>> cb58c84831943935b41ebef5e0240cd1c4cc5a4b
 </form>
 
 </body>
