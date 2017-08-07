@@ -13,11 +13,13 @@ public class HqAsyRequest implements  Runnable{
 
         try {
 
-            System.out.println("处理中。。。。。。");
+            PrintWriter out = context.getResponse().getWriter();
+
+            out.println("下载中。。。。。。");
+
             //模拟处理很长时间
             Thread.sleep(10000);
 
-            PrintWriter out = context.getResponse().getWriter();
             out.println("<h1>下载完成了</h1>");
             //完成客户端的响应
             context.complete();

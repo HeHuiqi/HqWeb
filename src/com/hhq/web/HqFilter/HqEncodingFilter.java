@@ -9,12 +9,13 @@ import java.io.IOException;
 @WebFilter(filterName = "HqEncodingFilter",
         urlPatterns = "/*",
         initParams = {
-        @WebInitParam(name = "ENCODING",value = "utf-8")})
+        @WebInitParam(name = "ENCODING",value = "UTF-8")},asyncSupported = true)
 public class HqEncodingFilter implements Filter{
 
     private  String ENCODING;
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
+        System.out.println("HqEncodingFilter");
         ENCODING = filterConfig.getInitParameter("ENCODING");
     }
 
@@ -23,6 +24,8 @@ public class HqEncodingFilter implements Filter{
 
         HttpServletRequest req = (HttpServletRequest)servletRequest;
         if ("GET".equals(req.getMethod())){
+            System.out.println("HqEncodingFilter-GET");
+
             req = new HqEncodingServletWrapper(req,ENCODING);
         }else {
 

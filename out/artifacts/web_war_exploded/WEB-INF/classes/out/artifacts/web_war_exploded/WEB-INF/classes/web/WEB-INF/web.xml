@@ -80,10 +80,20 @@
     <filter>
         <filter-name>HqEscapeFilter</filter-name>
         <filter-class>com.hhq.web.HqFilter.HqEscapeFilter</filter-class>
+        <async-supported>true</async-supported>
     </filter>
     <filter-mapping>
         <filter-name>HqEscapeFilter</filter-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>/leaveWord</url-pattern><!--//应用于对/leaveWord的请求-->
     </filter-mapping>
+    
+    
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <!--去掉空格换行-->
+            <trim-directive-whitespaces>true</trim-directive-whitespaces>
+        </jsp-property-group>
+    </jsp-config>
 
 </web-app>

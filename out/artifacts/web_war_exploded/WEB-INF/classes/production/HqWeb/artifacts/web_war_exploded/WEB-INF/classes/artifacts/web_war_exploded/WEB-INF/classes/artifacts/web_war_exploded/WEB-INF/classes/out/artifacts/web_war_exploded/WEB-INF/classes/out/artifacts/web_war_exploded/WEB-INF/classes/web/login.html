@@ -1,0 +1,37 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>登录</title>
+    <script src="/HqJS/hq_http_client.js"></script>
+    <script type="text/javascript">
+
+        function login() {
+            var username = document.getElementById("account").value;
+            var param = "username="+username;
+            startPostRequest("http://127.0.0.1:8080/login",param,function(xmlhttp,responseText){
+                console.log("responseText"+responseText);
+                document.getElementById("myDiv").innerHTML= responseText;
+            });
+        }
+
+    </script>
+</head>
+<body>
+<h2>登录</h2>
+<!--ajax请求方式-->
+<form >
+    用户名：<input id="account" name="username" placeholder="输入用户名" value="tom"/><br>
+    密  码：<input name="password" placeholder="输入密码"><br>
+</form>
+<button type="button" onclick="login()">登录</button>
+<div id="myDiv"></div>
+
+<!--直接跳转-->
+<!--<form name="login" method="post"  action="/login" onsubmit="login">-->
+    <!--用户名：<input name="username" placeholder="输入用户名"/><br>-->
+    <!--密  码：<input name="password" placeholder="输入密码"><br>-->
+    <!--<input type="submit" value="登录">-->
+<!--</form>-->
+
+</body>
+</html>
