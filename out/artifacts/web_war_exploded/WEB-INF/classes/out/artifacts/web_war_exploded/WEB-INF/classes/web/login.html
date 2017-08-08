@@ -2,6 +2,30 @@
 <head>
     <meta charset="utf-8">
     <title>登录</title>
+<<<<<<< HEAD
+    <script src="/HqJS/hq_http_client.js"></script>
+    <script type="text/javascript">
+
+        function login() {
+            var username = document.getElementById("account").value;
+            var param = "username="+username;
+            startPostRequest("http://127.0.0.1:8080/login",param,function(xmlhttp,responseText){
+                console.log("responseText"+responseText);
+                document.getElementById("myDiv").innerHTML= responseText;
+            });
+        }
+
+    </script>
+</head>
+<body>
+<h2>登录</h2>
+<!--ajax请求方式-->
+<form >
+    用户名：<input id="account" name="username" placeholder="输入用户名" value="tom"/><br>
+    密  码：<input name="password" placeholder="输入密码"><br>
+</form>
+<button type="button" onclick="login()">登录</button>
+=======
     <script type="text/javascript">
         function login()
         {
@@ -47,14 +71,27 @@ ajax请求方式
     密  码：<input name="password" placeholder="输入密码"><br>
     <button type="button" onclick="login()">登录</button>
 </form>
+>>>>>>> cb58c84831943935b41ebef5e0240cd1c4cc5a4b
 <div id="myDiv"></div>
 
 <br>
+<<<<<<< HEAD
+=======
+<br>
+<<<<<<< HEAD
+jsp登录直接跳转
+<form name="login" method="post" action="/HqJsp/login.jsp">
+    用户名：<input name="user" placeholder="输入用户名"/><br>
+    密  码：<input name="password" placeholder="输入密码"><br>
+    <input type="submit" value="登录">
+=======
+>>>>>>> 1fff8d8c93ab7efc5c516bdc0858f07d4e8bd50a
 jsp直接跳转
 <form id="jspLogin" method="post"  action="/HqJsp/HqLoginJsp.jsp" >
     用户名：<input name="user" placeholder="输入用户名"/><br>
     密  码：<input name="password" placeholder="输入密码"><br>
     <button type="submit" >登录</button>
+>>>>>>> cb58c84831943935b41ebef5e0240cd1c4cc5a4b
 </form>
 
 <br>

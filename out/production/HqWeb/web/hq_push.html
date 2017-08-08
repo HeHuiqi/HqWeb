@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Message</title>
+    <title>消息</title>
+    <script src="/HqJS/hq_http_client.js"></script>
+    <script type="text/javascript">
+        
+        function  getMessage() {
+            startGetRequest("http://127.0.0.1:8080/pushNumber",null,function(xmlhttp,responseText){
+                console.log("responseText"+responseText);
+                document.getElementById("message").innerHTML= responseText;
+            });
+        }
+        window.onload = getMessage();
+        
+    </script>
 </head>
 <body>
+<h1 id="message"></h1>
 
 </body>
 </html>

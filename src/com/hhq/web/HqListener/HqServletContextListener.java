@@ -18,7 +18,7 @@ public class HqServletContextListener implements ServletContextListener {
 
     @Override
     public void contextDestroyed(ServletContextEvent servletContextEvent) {
-        System.out.println("contextDestroyed");
+        System.out.println("HqServletContextListener-contextDestroyed");
 
     }
 }

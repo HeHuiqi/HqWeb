@@ -15,25 +15,23 @@ import java.util.concurrent.Executors;
 
 public class HqAsynServlet extends HttpServlet {
 
+    //创建一个线程池
    private ExecutorService executorService = Executors.newFixedThreadPool(10);
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-        request.setCharacterEncoding("utf-8");
-        response.setContentType("text/html;charset=utf-8");
-
-        AsyncContext context = request.startAsync();
-
-
-        executorService.shutdown();
-        executorService.submit(new  HqAsyRequest(context));
 
 
     }
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("utf-8");
+        response.setContentType("text/html;charset=utf-8");
 
+        AsyncContext context = request.startAsync();
+
+        //提交线程执行
+        executorService.submit(new  HqAsyRequest(context));
 
     }
 

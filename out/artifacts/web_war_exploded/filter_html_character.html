@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>过滤html标签字符</title>
 </head>
 <body>
-$END$
+<!--
+使用过滤器和request包装类来防止用户输入的html标签被浏览器解析
+-->
+<form action="/leaveWord">
+    用户：<input name="user" value="啤酒罐"/><br>
+    留言：<input name="message" value="<a href='index.html'>我的首页</a>"><br>
+    <button type="submit">提交</button>
+</form>
+
 </body>
 </html>

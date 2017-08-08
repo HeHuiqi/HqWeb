@@ -17,11 +17,10 @@ public class HqEncodingServletWrapper extends HttpServletRequestWrapper{
     public String getParameter(String name){
 
         String value = getRequest().getParameter(name);
-
         if (value !=null){
 
             try {
-                byte[] bytes = value.getBytes("ISO-8859-1");
+                byte[] bytes = value.getBytes("utf-8");
                 value = new String(bytes,encoding);
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();

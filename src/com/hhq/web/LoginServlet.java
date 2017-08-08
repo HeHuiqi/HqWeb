@@ -11,7 +11,8 @@ import java.util.Enumeration;
 
 @WebServlet(name = "LoginServlet")
 public class LoginServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    @Override
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         request.setCharacterEncoding("utf-8");
         //设置跨域访问, 必须是域名的形似如 http://www.hhq.com如果端口不是80，则必须指定端口
@@ -26,8 +27,8 @@ public class LoginServlet extends HttpServlet {
 
         out.close();
     }
-
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    @Override
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
        request.setCharacterEncoding("utf-8");
        response.setContentType("text/html;charset=utf-8");

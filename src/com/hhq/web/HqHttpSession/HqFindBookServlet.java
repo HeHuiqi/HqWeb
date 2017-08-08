@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.net.URLDecoder;
 
 @WebServlet(name = "HqFindBookServlet", urlPatterns = "/findBook")
 public class HqFindBookServlet extends HttpServlet {
@@ -21,6 +22,8 @@ public class HqFindBookServlet extends HttpServlet {
         String bookNumber = request.getParameter("book_number");
 
         PrintWriter out = response.getWriter();
+
+        System.out.println("查找==="+ bookName);
 
         if ("生活指南".equals(bookName)&&"1".equals(bookNumber)){
             request.getSession().setAttribute("findBook",bookName);
