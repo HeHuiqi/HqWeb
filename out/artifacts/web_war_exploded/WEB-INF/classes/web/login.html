@@ -18,36 +18,30 @@
 </head>
 <body>
 <h2>登录</h2>
-<<<<<<< HEAD
-<!--ajax请求方式-->
-servlet-Ajax请求方式
-<form id="servlet" >
-    用户名：<input id="account" name="username" placeholder="输入用户名" value="tom"/><br>
-=======
+
 ajax请求方式
 <form id="servletLogin">
     用户名：<input id="account" name="username" placeholder="输入用户名"/><br>
->>>>>>> cb58c84831943935b41ebef5e0240cd1c4cc5a4b
     密  码：<input name="password" placeholder="输入密码"><br>
     <button type="button" onclick="login()">登录</button>
 </form>
 <div id="myDiv"></div>
 
 <br>
-<br>
-<<<<<<< HEAD
-jsp登录直接跳转
-<form id="jsp" method="post" action="">
-    用户名：<input name="user" placeholder="输入用户名"/><br>
-    密  码：<input name="password" placeholder="输入密码"><br>
-    <input type="submit" value="登录">
-=======
 jsp直接跳转
 <form id="jspLogin" method="post"  action="/HqJsp/HqLoginJsp.jsp" >
     用户名：<input name="user" placeholder="输入用户名"/><br>
     密  码：<input name="password" placeholder="输入密码"><br>
     <button type="submit" >登录</button>
->>>>>>> cb58c84831943935b41ebef5e0240cd1c4cc5a4b
+</form>
+
+<br>
+
+javaBeanLogin处理登录
+<form id="javaBeanLogin" method="post"  action="/HqJsp/HqLogin.jsp" >
+    用户名：<input name="name" placeholder="输入用户名"/><br>
+    密  码：<input name="password" placeholder="输入密码"><br>
+    <button type="submit" >登录</button>
 </form>
 
 </body>
